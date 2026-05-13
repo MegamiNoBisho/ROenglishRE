@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20251008
+-- Last updated: 20260322
 
 OptionTbl = {
 	[1] = {
@@ -392,6 +392,7 @@ OptionTbl = {
 		Tab = ETC,
 		Type = ONOFF,
 		Title = "/emblem",
+		Tooltip = "/emblem",
 		TipBoxID = 179,
 		Default = true,
 		Description = "Displays Guild Emblems.",
@@ -564,6 +565,7 @@ OptionTbl = {
 		Tab = ETC,
 		Type = EXE,
 		Title = "/ex",
+		Tooltip = "/ex",
 		TipBoxID = 28,
 		Description = "Shows a list of characters whose whispers you have blocked."
 	},
@@ -572,6 +574,7 @@ OptionTbl = {
 		Tab = ETC,
 		Type = EXE,
 		Title = "/inall",
+		Tooltip = "/inall",
 		TipBoxID = 28,
 		Description = "Allows whispers from anyone."
 	},
@@ -580,6 +583,7 @@ OptionTbl = {
 		Tab = ETC,
 		Type = EXE,
 		Title = "/exall",
+		Tooltip = "/exall",
 		TipBoxID = 28,
 		Description = "Blocks whispers from everyone."
 	},

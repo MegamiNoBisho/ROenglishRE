@@ -5,7 +5,7 @@
 -- Credits to Neo-Mind for the code it was originally based on.
 -- For further information, please visit https://llchrisll.github.io/ROTPDocs/guides/customs/#multi-iteminfo-support.
 
--- Load the splited function file
+-- Load the splitted function file
 require("SystemEN/LuaFiles514/itemInfo_f")
 
 -- Load the translation file
@@ -19,6 +19,7 @@ ImportFiles = {
 	"itemInfo_C.lua", -- custom items
 }
 -- Just define the table postfix, 'tbl_' will be automatically added
+-- Make sure the table names are unique, like tbl_kro, tbl_jro, etc.
 -- Note: The "tbl_override" is handled separately at the end.
 ImportTables = {
 	"custom",
@@ -97,7 +98,7 @@ end
 -- Loop through each table in the "ImportTables" table
 -- and merge them into the main table "tbl" 
 for _, v in ipairs(ImportTables) do
-	F_itemInfoMerge(_G['tbl_'..v], false)
+	F_itemInfoMerge(_G['tbl_'..v])
 end
 
 F_itemInfoMerge(tbl_override, true) -- official overrides
