@@ -10,39 +10,13 @@ The priority of item translation goes like this:
 2. jRO  
 3. iRO  
 4. idRO  
-5. bRO  
-6. twRO  
-7. GGHRO  
-8. phRO and cRO if there is still something left
+5. GGHRO  
+6. LatamRO
+7. LandverseRO
 
-To support the item translations further, I also make a merged grf when I have to time for it,  
-which consists every sprite of item/npc/mob sprite and texture files missing in the kRO data.grf.  
-[official_data.grf](https://www.mediafire.com/file/o0mfywht1rpqhkc/official_data.grf/file)
-
-<details>
-<summary>official_data folders</summary>
-
-* sprite   
-  * 몬스터
-  * 로브
-  * 아이템
-  * 악세사리
-  * 방패
-  * 인간족
-  * 이팩트
-  * npc
-
-* texture
-  * 유저인터페이스
-    * cardbmp
-    * collection
-    * illust
-    * item
- 
-   * effect
- 
-</details>
-
+## official_data.grf & kro_data.grf
+My two custom grfs are now on my docs available:  
+https://llchrisll.github.io/ROTPDocs/misc/custom_officials/
 ___
 Note: This project should be considered as educational purposes only, any commercial or illegal use by people or group aren't author's responsibilities.  
 ![ROTPbySapito_mask](https://github.com/llchrisll/ROenglishRE/assets/5730576/81cdf381-e3d5-4a88-95ff-4019a26b5977)
@@ -54,15 +28,21 @@ ___
   * 2020-04-01bRagexe  
   * 2020-09-02bRagexeRE  
   * 2022-04-06 Ragexe  
+  * 2025-06-04 Ragexe
+  * 2025-07-16 Ragexe
+  * 2026-01-07 Ragexe
 * rAthena Emulator  
-* Windows 10 Pro  
-* kRO Official Client  
+* Windows 11 Pro  
+* various kRO Full Clients  
 * Resource Files from: (official_data.grf)  
   * jRO  
   * iRO  
   * bRO  
   * idRO  
-  * ghhRO  
+  * GGHRO  
   * twRO  
+  * thRO
   * phRO  
   * cRO  
+  * LatamRO
+  * LandverseRO
